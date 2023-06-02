@@ -1,0 +1,13 @@
+{
+    //
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "compressed", // expanded ou compressed
+        "extensionName": ".min.css", // .css ou .min.css
+        "savePath": "/css"
+      }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "editor.autoClosingQuotes": "always",
+    "liveServer.settings.port": 5501
+  }

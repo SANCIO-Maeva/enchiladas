@@ -1,0 +1,76 @@
+$y: #FBB02D;
+$custom-colors: (
+  "red": $red,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+body{
+font-size: 18px;
+    header{
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.5);
+
+        nav{
+            height: 110px;
+        }
+        .home{
+            background-image: url(../img/home/home.jpeg);
+            width:100vw;
+            height: 62vw;
+            display:flex;
+        }
+        .histoire{
+            background-image: url(../img/histoire/histoire.jpeg);
+            width:100vw;
+            height: 40vw;
+            display: flex;
+        }
+        .carte{
+            background-image: url(../img/carte/carte.avif);
+            width:100vw;
+            height: 40vw;
+            display: flex;
+        }
+        .mentions{
+            background-image: url(../img/esd.png);
+            width:100vw;
+            height: 40vw;
+            display: flex;
+        }
+    }
+
+    a{
+        color: $y;
+        i{
+            font-size: 30px;
+        }
+    }
+
+    address{
+        text-align: center;
+    }
+    footer{
+        margin: 0;
+        background-color: $dark;
+    }
+}
+
+.logo{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    bottom: 7vh;
+}
+
+.carte{
+    box-shadow: 10px 12px 8px 8px rgba(0, 0, 0, 0.5);
+}
+    
+.bord{
+    border-left: 3px solid $y;
+    padding: 0px;
+    margin: 0px;
+}
+
+ 
